@@ -1,0 +1,24 @@
+{
+  "$schema": "../../umbraco-package-schema.json",
+  "name": "My.Vanilla.Extension",
+  "version": "0.1.0",
+  "extensions": [
+    {
+      "type": "dashboard",
+      "alias": "my.vanilla.extension",
+      "name": "My Vanilla Extension",
+      "js": "/App_Plugins/my-vanilla-extension/vanilla-extension.js",
+      "weight": -1,
+      "meta": {
+        "label": "My Vanilla Extension",
+        "pathname": "my-vanilla-extension"
+      },
+      "conditions": [
+        {
+          "alias": "Umb.Condition.SectionAlias",
+          "match": "Umb.Section.Content"
+        }
+      ]
+    }
+  ]
+}
