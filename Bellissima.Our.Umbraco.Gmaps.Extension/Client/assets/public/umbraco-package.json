@@ -2,6 +2,7 @@
   "$schema": "../Client/umbraco-package-schema.json",
   "name": "Gmaps",
   "version": "0.1.0",
+  "allowPackageTelemetry": true,
   "extensions": [
     {
       "type": "propertyEditorUi",
@@ -30,7 +31,7 @@
               "alias": "zoom",
               "label": "Default zoom",
               "description": "The default zoom level of the map. Defaults to 17",
-              "propertyEditorUiAlias": "Umb.PropertyEditorUi.Decimal"
+              "propertyEditorUiAlias": "Umb.PropertyEditorUi.Integer"
             },
             {
               "alias": "maptype",
@@ -43,6 +44,16 @@
                   "value": ["Roadmap", "Hybrid", "Satellite", "Terrain", "Styled"]
                 }
               ]
+            }
+          ],
+          "defaultData": [
+            {
+              "alias": "zoom",
+              "value": 15
+            },
+            {
+              "alias": "location",
+              "value": "52.379189, 4.899431"
             }
           ]
         }
