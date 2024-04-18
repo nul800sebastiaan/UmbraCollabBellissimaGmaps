@@ -21,4 +21,8 @@
       <_ContentIncludedByDefault Remove="wwwroot\App_Plugins\my-vanilla-extension\vanilla-extension.js" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Our.Umbraco.GMaps.Core\Our.Umbraco.GMaps.Core.csproj" />
+    </ItemGroup>
+
 </Project>
