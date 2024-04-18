@@ -18,13 +18,13 @@
               "alias": "apikey",
               "label": "Google API Key",
               "description": "Your Google Maps API Key",
-              "propertyEditorUiAlias": "Umb.PropertyEditorUi,TextBox"
+              "propertyEditorUiAlias": "Umb.PropertyEditorUi.TextBox"
             },
             {
               "alias": "location",
               "label": "Default coordinates",
               "description": "The coordinates (lat, long) of the centre this map will show. Example: 52.379189, 4.899431",
-              "propertyEditorUiAlias": "Umb.PropertyEditorUi,TextBox"
+              "propertyEditorUiAlias": "Umb.PropertyEditorUi.TextBox"
             },
             {
               "alias": "zoom",
