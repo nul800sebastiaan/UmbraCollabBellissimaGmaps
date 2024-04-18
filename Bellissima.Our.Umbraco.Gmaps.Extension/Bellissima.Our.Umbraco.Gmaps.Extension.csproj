@@ -15,7 +15,7 @@
     <Description>......</Description>
     <PackageTags>umbraco plugin package</PackageTags>
   </PropertyGroup>
-  
+   
     <ItemGroup>
         <SupportedPlatform Include="browser"/>
     </ItemGroup>
@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\App_Plugins\Gmaps\*.*" />
+      <Content Remove="Client\**\*" />
     </ItemGroup>
 
     <ItemGroup>
