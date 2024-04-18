@@ -5,8 +5,8 @@
   "extensions": [
     {
       "type": "propertyEditorUi",
-      "alias": "our.gmaps",
-      "name": "Gmaps is cool",
+      "alias": "Our.Umbraco.Gmaps",
+      "name": "Google Maps Editor for Umbraco",
       "js": "/App_Plugins/Gmaps/Our.Umbraco.Gmaps.js",
       "meta": {
         "label": "Gmaps",
