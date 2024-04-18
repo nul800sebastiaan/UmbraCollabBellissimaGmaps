@@ -480,3 +480,5 @@ umbraco-package-schema.json
 
 # Media files
 */wwwroot/media/
+
+/Bellissima.Our.Umbraco.Gmaps.Extension/wwwroot/App_Plugins/Gmaps/*
