@@ -32,7 +32,4 @@
         <Content Include="Client\assets\public\umbraco-package.json" Pack="false"/>
     </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\Our.Umbraco.GMaps.Core\Our.Umbraco.GMaps.Core.csproj"/>
-    </ItemGroup>
 </Project>
