@@ -8,29 +8,31 @@
     </PropertyGroup>
 
 
-  <PropertyGroup>
-    <PackageId>Our.Gmaps</PackageId>
-    <Product>Our.Gmaps</Product>
-    <Title>Our.Gmaps</Title>
-    <Description>......</Description>
-    <PackageTags>umbraco plugin package</PackageTags>
-  </PropertyGroup>
-   
+    <PropertyGroup>
+        <PackageId>Our.Gmaps</PackageId>
+        <Product>Our.Gmaps</Product>
+        <Title>Our.Gmaps</Title>
+        <Description>......</Description>
+        <PackageTags>umbraco plugin package</PackageTags>
+    </PropertyGroup>
+
     <ItemGroup>
         <SupportedPlatform Include="browser"/>
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.1"/>
-	    <PackageReference Include="Umbraco.Cms.Web.Website" Version="14.0.0-rc1" />
-		<PackageReference Include="Umbraco.Cms.Web.Common" Version="14.0.0-rc1" />
+        <PackageReference Include="Umbraco.Cms.Web.Website" Version="14.0.0-rc1"/>
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="14.0.0-rc1"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Content Remove="Client\**\*" />
+        <Content Remove="Client\**\*"/>
+        <Content Include="Client\assets\*.json" Pack="false"/>
+        <Content Include="Client\assets\public\umbraco-package.json" Pack="false"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Our.Umbraco.GMaps.Core\Our.Umbraco.GMaps.Core.csproj" />
+        <ProjectReference Include="..\Our.Umbraco.GMaps.Core\Our.Umbraco.GMaps.Core.csproj"/>
     </ItemGroup>
 </Project>
